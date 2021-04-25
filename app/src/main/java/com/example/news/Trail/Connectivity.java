@@ -19,7 +19,6 @@ public class Connectivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        startActivity(new Intent(Connectivity.this, MainActivity.class));
-        finish();
+        this.finish();
     }
 }
