@@ -38,7 +38,7 @@ import retrofit2.Response;
 public class TechCrunchActivity extends AppCompatActivity implements OnRecyclerViewItemClickListener {
     private static final String TAG = TechCrunchActivity.class.getName();
     ActivityTechCrunchBinding binding;
-    private static final String API_KEY = "a62872ce095e4200ac68b925ce71f8a4";
+    private static final String API_KEY = "Your Api_key";
     private TechViewModel model;
     private ProgressDialog progressDialog;
     @Override
