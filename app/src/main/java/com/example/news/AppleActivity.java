@@ -41,7 +41,7 @@ import retrofit2.Response;
 public class AppleActivity extends AppCompatActivity implements OnRecyclerViewItemClickListener {
     private static final String TAG = AppleActivity.class.getName();
     private ActivityAppleAtcivityBinding binding;
-    private static final String API_KEY = "a62872ce095e4200ac68b925ce71f8a4";
+    private static final String API_KEY = "Your Api_key";
     private static String date;
     private ProgressDialog progressDialog;
     private AppleViewModel model;
