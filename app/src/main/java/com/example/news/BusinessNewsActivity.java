@@ -35,7 +35,7 @@ import retrofit2.Response;
 
 public class BusinessNewsActivity extends AppCompatActivity implements OnRecyclerViewItemClickListener {
     private static final String TAG = BusinessNewsActivity.class.getName();
-  private static final String API_KEY="a62872ce095e4200ac68b925ce71f8a4";
+  private static final String API_KEY="Your Api_key";
   private static ActivityBusinessNewsBinding binding;
   private ArticleViewModel model;
     private ProgressDialog progressDialog;
