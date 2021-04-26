@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="Radius">10dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="textsize">16dp</dimen>
+    <dimen name="imageSize">246dp</dimen>
+    <dimen name="marginstart">16dp</dimen>
+    <dimen name="marginEnd">16dp</dimen>
+    <dimen name="marginend">16dp</dimen>
+    <dimen name="marginleft">16dp</dimen>
+    <dimen name="marginright">16dp</dimen>
+    <dimen name="textsize10">10dp</dimen>
+    <dimen name="title_textsize">20dp</dimen>
+    <dimen name="horizontalpadding">16dp</dimen>
+</resources>

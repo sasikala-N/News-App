@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NEWS</string>
+    <string name="techTitle">Top headlines from TechCrunch right now</string>
+    <string name="tech_description">There’s an “uber for everything” these days and now there are “Ubers for personal chefs”. Just take a look at PopTop or 100 Pleats for instance. Now in London, there is Yhangry (which brands itself as the appropriately shouty YHANGRY). This is a “private chef…</string>
+    <string name="business_headlines">Top business headlines in the US right now</string>
+    <string name="techcrunch_headlines">Top headlines from TechCrunch right now</string>
+    <string name="business_title">Top business headlines in the US right now</string>
+    <string name="business_description">Tesla is growing frustrated with the approval process for Gigafactory Berlin as the automaker is almost done with building the factory, which is supposed to be about to start production in a few months. As we have previously reported, Tesla hasn’t obtained ov…</string>
+    <string name="telsa_headlines">All articles about Tesla from the last month</string>
+    <string name="telsa_title"><![CDATA[Las Vegas Convention & Visitors Authority and Samsung Partner to Unveil the Largest Digital Experience in U.S. Convention & Exhibitions Industry]]></string>
+    <string name="telsa_description">LAS VEGAS--(BUSINESS WIRE)--The Las Vegas Convention and Visitors Authority and Samsung unveil a state-of-the-art digital experience in the new West Hall at the LVCC.</string>
+    <string name="apple_title">All articles mentioning Apple from yesterday</string>
+    <string name="apple_descripion">Apple is expanding its Find My network to include third-party devices.</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="login">  Already registered. Login Me!</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="email">
+    Enter email address
+    </string>
+    <string name="password">Enter password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

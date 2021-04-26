@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   app:cardCornerRadius="@dimen/Radius"
+   android:layout_margin="@dimen/margin"
+   android:id="@+id/telsa_articles">
+<LinearLayout
+    android:id="@+id/telsa_article"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginRight="5dp"
+           android:src="@drawable/telsa"
+           />
+    <TextView
+        android:id="@+id/tesla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Tesla "
+        android:textColor="@color/headline_color"
+        android:textSize="@dimen/textsize"
+        android:layout_marginBottom="@dimen/margin"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tesla_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+      android:text="@string/telsa_title"
+        android:textColor="@color/title_color"
+        android:textSize="@dimen/title_textsize" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:padding="@dimen/padding"
+        android:src="@drawable/tech" />
+    <TextView
+        android:id="@+id/telsa_postedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="@dimen/marginstart"
+        android:layout_marginLeft="@dimen/marginleft"
+        android:text="2021-04-08T13:50:00Z"
+        android:textSize="@dimen/textsize10"
+        android:layout_marginBottom="@dimen/margin" />
+    <TextView
+        android:id="@+id/telsa_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text= "@string/telsa_description"
+        android:textColor="@color/description_color"
+        android:textSize="@dimen/textsize" />
+</LinearLayout>
+</androidx.cardview.widget.CardView>

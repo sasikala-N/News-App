@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/Radius"
+    android:layout_margin="@dimen/margin"
+    android:id="@+id/apple">
+    <LinearLayout
+        android:id="@+id/apple_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginRight="5dp"
+           android:src="@drawable/apple"
+           />
+        <TextView
+            android:id="@+id/Apple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Apple "
+            android:textColor="@color/headline_color"
+            android:textSize="14sp"
+            android:layout_marginBottom="@dimen/margin" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:padding="@dimen/padding"
+            android:src="@drawable/applethink"
+            />
+        <TextView
+            android:id="@+id/atitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/apple_title"
+            android:textColor="@color/title_color"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
